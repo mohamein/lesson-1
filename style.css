@@ -1,0 +1,121 @@
+@import url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+   font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    margin: 0  auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-wrapper {
+    width: 300px;
+    height: 520px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-header {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-header img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.card-header-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.card-header-address h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.card-header-address p {
+    font-size: 14px;
+    margin: 0;
+    color: #C4F82A;
+    font-weight: 600;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.card-body p {
+    color: #D9D9D9;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-body .card-body-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.card-body-links button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-body-links button:hover {
+    background-color: #C4F82A;
+    color: #000;
+}
+
+.card-body-links button:active {
+    background-color: #C4F82A;
+    color: #000;
+}
